@@ -4,6 +4,12 @@ describe('ago', function(){
   var assert = require('assert')
     , ago = require('ago');
 
+  describe('future', function(){
+    it('should return an empty string', function(){
+      assert('' == ago(new Date(6e4 + Date.now())));
+    })
+  })
+
   describe('new Date', function(){
     it('should equal "just now"', function(){
       assert('just now' == ago(new Date));
