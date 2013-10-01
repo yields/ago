@@ -7,6 +7,9 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": ["index.js"],
+  "dependencies": {
+    "yields/approximate-time": "*"
+  },
   "development": {
     "component/assert": "*",
     "visionmedia/mocha": "*"
