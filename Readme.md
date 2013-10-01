@@ -1,4 +1,3 @@
-
 # ago
 
   `Date(now - 1e3) => "a second ago"`
@@ -13,7 +12,7 @@
 
 ### ago(date)
 
-  Homanize the given `date`.
+  Humanize the given `date`.
 
 ## Examples
 
