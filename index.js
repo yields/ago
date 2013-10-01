@@ -55,6 +55,6 @@ module.exports = function(date){
 function format(n, unit){
   var a = 'hour' == unit ? 'an' : 'a';
   return (1 == n ? a : n)
-    + ' ' +(1 == n ? unit : unit + 's')
+    + ' ' + (1 == n ? unit : unit + 's')
     + ' ago';
 }
