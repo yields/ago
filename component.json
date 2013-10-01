@@ -1,7 +1,7 @@
 {
   "name": "ago",
   "repo": "yields/ago",
-  "description": "",
+  "description": "Date(now - 1e3) => a second ago",
   "version": "0.0.1",
   "keywords": ["ago", "time", "conversion"],
   "license": "MIT",
