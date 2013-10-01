@@ -1,0 +1,14 @@
+{
+  "name": "ago",
+  "repo": "yields/ago",
+  "description": "",
+  "version": "0.0.1",
+  "keywords": ["ago", "time", "conversion"],
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": ["index.js"],
+  "development": {
+    "component/assert": "*",
+    "visionmedia/mocha": "*"
+  }
+}
