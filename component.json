@@ -2,7 +2,7 @@
   "name": "ago",
   "repo": "yields/ago",
   "description": "Date(now - 1e3) => a second ago",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "keywords": ["ago", "time", "conversion"],
   "license": "MIT",
   "main": "index.js",
