@@ -16,6 +16,7 @@ var time = require('approximate-time');
 module.exports = function(date){
   if (new Date < date) return '';
   var ret = time(date);
-  if ('just now' == ret) return ret;
-  return time(date) + ' ago';
+  return 'just now' != ret
+    ? ret + ' ago'
+    : ret;
 };
