@@ -1,0 +1,26 @@
+{
+  "name": "yields-ago",
+  "version": "0.1.0",
+  "description": "Date(now - 1e3) => a second ago",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yields/ago.git"
+  },
+  "keywords": [
+    "browser",
+    "ago",
+    "time",
+    "conversion"
+  ],
+  "dependencies": {
+    "approximate-time": "~0"
+  },
+  "author": "Amir Abu Shareb <yields@icloud.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yields/ago/issues"
+  },
+  "files": [
+    "index.js"
+  ]
+}
